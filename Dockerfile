@@ -1,3 +1,3 @@
 FROM nginx:latest
 ADD . /var/www/html
-RUN systemctl enable nginx
+RUN service enable nginx
