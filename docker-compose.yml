@@ -3,7 +3,7 @@ services:
   web:
     image: nginx:latest
     ports:
-     - "8888:80"
+     - "8080:80"
     volumes:
      - /home/ambab/workspace/ambab_yoge:/usr/share/nginx/html
 
