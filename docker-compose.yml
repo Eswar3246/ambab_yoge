@@ -6,6 +6,5 @@ services:
      - "8080:80"
     volumes:
      - /home/ambab/workspace/ambab_yoge:/usr/share/nginx/html
-    links:
-     - php
+
 
